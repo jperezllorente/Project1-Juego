@@ -74,7 +74,7 @@ def machine():
 
 def game():
     
-    select = int(input('Choose game mode:'))
+    select = int(input('Choose game mode between 1 and 2:'))
     if select not in range (1,3):
         print('Choose a valid game mode')
     elif select == 1:

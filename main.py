@@ -1,7 +1,9 @@
 
 import functions as fn
 
-fn.game()
+game = fn.game()
+
+
 
 
 
