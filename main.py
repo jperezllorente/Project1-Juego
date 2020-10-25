@@ -1,7 +1,8 @@
 
-import scr.functions as fn
+import functions as fn
 
 fn.game()
+
 
 
 
