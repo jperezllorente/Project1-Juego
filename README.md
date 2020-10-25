@@ -137,7 +137,7 @@ In order to develop the code for this game the following steps have been taken:
 
 ### Conclusions:
 
-- This game offer two game modes, one that allows us to be the player and another that allows to be spectators. 
+- This game offers two game modes, one that allows us to be the player and another that allows to be spectators. 
 - The number to be guessed is randomly chosen in order to offer a better experience
 - There are three dificulty levels that set tha range between which the number can be guessed
 - The player enters the number he believes are the answer, while the computer chosses randomly with a range that closes with each guess so that it  resembles the actions of a person.
@@ -146,7 +146,6 @@ In order to develop the code for this game the following steps have been taken:
     1. We define the function for the player:
 
     def player():
-    
         import random as rn
         
         print("""The difficulty level determines the range between which you have to guess:
@@ -189,7 +188,6 @@ In order to develop the code for this game the following steps have been taken:
     2. We define the function for the machine:
 
     def machine():
-    
         import random as rn
         
         level = int(input('Choose the difficulty level you want to face:'))
@@ -233,7 +231,6 @@ In order to develop the code for this game the following steps have been taken:
 3. We combine both a define the game function:
 
     def game():
-    
         select = int(input('Choose game mode:'))
         if select not in range (1,3):
             print('Choose a valid game mode')
