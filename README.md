@@ -145,7 +145,8 @@ In order to develop the code for this game the following steps have been taken:
 
     1. We define the function for the player:
 
-    def player():
+    ```def player():
+
         import random as rn
         
         print("""The difficulty level determines the range between which you have to guess:
@@ -183,11 +184,12 @@ In order to develop the code for this game the following steps have been taken:
         if guess == num:
             print('Congratulations!! You guessed the number on your try number ', chance)
         if guess != num:
-            print('Game over! The number was' ,num)
+            print('Game over! The number was' ,num)```
 
     2. We define the function for the machine:
 
-    def machine():
+    ```def machine():
+
         import random as rn
         
         level = int(input('Choose the difficulty level you want to face:'))
@@ -226,11 +228,12 @@ In order to develop the code for this game the following steps have been taken:
         if guess == num:
             print('Congratulations!! You guessed the number on your try number ', chances)
         if guess != num:
-            print('Game over! The number was' ,num)
+            print('Game over! The number was' ,num)```
 
 3. We combine both a define the game function:
 
-    def game():
+    ```def game():
+
         select = int(input('Choose game mode:'))
         if select not in range (1,3):
             print('Choose a valid game mode')
@@ -239,7 +242,7 @@ In order to develop the code for this game the following steps have been taken:
             player()
         elif select == 2:
             print('You have chosen to watch the machine play')
-            machine()
+            machine()```
 
 
 
