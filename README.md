@@ -1,7 +1,4 @@
-# Project1---Juego-
-## First Ironhack project with the objective of creating a game 
-
-For this first programming project I have chosen to create a **Guess the number** game. 
+# Guess the number   
 
 ### Game objective: 
 
