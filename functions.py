@@ -69,18 +69,8 @@ def machine():
             
     if guess == num:
         print('Congratulations!! You guessed the number on your try number ', chances)
-    if guess != num:
+    elif guess != num:
         print('Game over! The number was' ,num)
 
-def game():
-    
-    select = int(input('Choose game mode between 1 and 2:'))
-    if select not in range (1,3):
-        print('Choose a valid game mode')
-    elif select == 1:
-        print('You have chosen to play yourself')
-        player()
-    elif select == 2:
-        print('You have chosen to watch the machine play')
-        machine()
+
 
